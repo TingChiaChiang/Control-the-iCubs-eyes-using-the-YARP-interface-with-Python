@@ -34,27 +34,25 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the code
+First step is to have a yarpserver running.
 
-### Break down into end to end tests
-
-At one terminal, run 
+Open a terminal and run 
    
-   at another terminal 
-   $iCub_SIM
-   at another terminal
+ 
    $ iKinGazeCtrl --from configSim.ini
 
 ```
 yarpserver
 ```
 
-At another terminal 
-
-
-'''
+To run iCub simulator, open a second terminal and type
+```
 iCub_SIM
-'''
+```
+The simulator should look like this
+
+to 
+At third termi
 
 ### And coding style tests
 
