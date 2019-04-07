@@ -30,6 +30,8 @@ class iGazeController:
         print "I am looking at", self.fp[0], self.fp[1], self.fp[2]
 
     # look at a fixation point in Absolute Angular Coordinate System
+    # x is a azimuth-component [deg], y is a elevation-component [deg]
+    # z is a vergence-component [deg]
     def LookAtAngle(self, x, y, z):
         self.fa= yarp.Vector(3)
         self.fa[0] = x
