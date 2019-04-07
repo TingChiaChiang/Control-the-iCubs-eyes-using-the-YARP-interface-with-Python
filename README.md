@@ -41,17 +41,31 @@ Open a terminal and run
 ```
 yarpserver
 ```
-The terminal will look like this.
+The terminal will look like this:
 ![yarp](https://user-images.githubusercontent.com/41744376/55685218-c0019e80-5953-11e9-9686-1b5cbf56657e.png)
 
-To run iCub simulator, open a second terminal and type
+
+To run an iCub simulator, open a second terminal and type
 ```
 iCub_SIM
 ```
-The simulator should look like this
+The simulator should look like this:
+![icub](https://user-images.githubusercontent.com/41744376/55685172-65684280-5953-11e9-809d-41096314acdc.png)
 
-to 
-At third termi
+
+To use the iKinGazeCtrl module in the simulator, you need to select the proper configuration file. 
+
+Open another terminal and type:
+
+```
+iKinGazeCtrl --from configSim.ini
+```
+
+Finally, go the the directory where you downloaded the python script and run
+
+```
+python python_igaze_control.py
+```
 
 ### And coding style tests
 
