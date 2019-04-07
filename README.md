@@ -59,13 +59,7 @@ Finally, go the the directory where you downloaded the python script and run
 python python_igaze_control.py
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## References
 1. [The YARP Gaze Interface](http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver)
@@ -76,5 +70,3 @@ Give an example
 * **Ting-Chia Chiang**
 
 
-
-* hahahah
