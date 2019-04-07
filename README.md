@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Install YARP and iCub from sources and compile them properly 
 
 ```
-Give examples
+http://wiki.icub.org/wiki/Linux:Installation_from_sources
 ```
 
 ### Installing
@@ -34,15 +34,27 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Explain how to run the code
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+At one terminal, run 
+   
+   at another terminal 
+   $iCub_SIM
+   at another terminal
+   $ iKinGazeCtrl --from configSim.ini
 
 ```
-Give an example
+yarpserver
 ```
+
+At another terminal 
+
+
+'''
+iCub_SIM
+'''
 
 ### And coding style tests
 
