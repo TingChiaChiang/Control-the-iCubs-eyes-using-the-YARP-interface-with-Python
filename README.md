@@ -1,6 +1,6 @@
-# Control-the-iCubs-eyes-using-the-IGazeControl-YARP-interface-with-Python
+# Control the iCub's eyes using the IGazeControl YARP interface with Python
 
-This script allows you to control iCub’s eyes using Python with YARP Gaze Interface (official tutorial only provided C++). So far there are three methods provided. The first one is to look at a fixation point in Cartesian coordinates. The second one is to look at a fixation point in an absolute angular coordinate system. The last one is to retrieve the current fixation point (may used to measure the displacement error). 
+This script allows you to control iCub’s eyes using the YARP Gaze Interface with Python (official tutorial only provided C++). So far there are three methods provided. The first one is to look at a fixation point in Cartesian coordinates. The second one is to look at a fixation point in an absolute angular coordinate system. The last one is to retrieve the current fixation point (may used to measure the displacement error). 
 
 ## Getting Started
 
@@ -68,7 +68,8 @@ Give an example
 ```
 
 ## References
-1. [http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver](http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver)
+1. [The YARP Gaze Interface](http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver)
+2. [IGazeControl Class Reference](http://www.yarp.it/classyarp_1_1dev_1_1IGazeControl.html)
 
 ## Authors
 
