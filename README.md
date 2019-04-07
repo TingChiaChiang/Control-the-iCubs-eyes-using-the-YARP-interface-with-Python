@@ -20,7 +20,7 @@ Follow instructions here to install them:
 git clone https://github.com/TingChiaChiang/Control-the-iCubs-eyes-using-the-YARP-interface-with-Python.git
 ```
 
-## Running the tests
+## Running the test
 ### Step 1
 
 First step is to have a yarpserver running.
@@ -64,11 +64,13 @@ Explain what these tests test and why
 Give an example
 ```
 
+## References
+1. [http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver](http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ting-Chia Chiang**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 
