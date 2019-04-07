@@ -9,10 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Install YARP and iCub from sources and compile them properly before running the python script.
-[a link](http://wiki.icub.org/wiki/Linux:Installation_from_sources)
+
 
 ```
-http://wiki.icub.org/wiki/Linux:Installation_from_sources
+[http://wiki.icub.org/wiki/Linux:Installation_from_sources](http://wiki.icub.org/wiki/Linux:Installation_from_sources)
 ```
 
 ### Installing
