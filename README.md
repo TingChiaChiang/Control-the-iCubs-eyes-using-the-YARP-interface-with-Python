@@ -1,6 +1,6 @@
 # Control-the-iCubs-eyes-using-the-IGazeControl-YARP-interface-with-Python
 
-I created three methods to control iCub’s eyes using a Python scprit. The first one is to look at a fixation point in Cartesian coordinates. The second one is to look at a fixation point in an absolute angular coordinate system. The last one is to retrieve the current fixation point (may used to measure the displacement error). 
+This script allows you to control iCub’s eyes using Python instead of C++ in the official The first one is to look at a fixation point in Cartesian coordinates. The second one is to look at a fixation point in an absolute angular coordinate system. The last one is to retrieve the current fixation point (may used to measure the displacement error). 
 
 ## Getting Started
 
@@ -10,9 +10,12 @@ These instructions will get you a copy of the methods and running on your local 
 
 Install YARP and iCub from sources and compile them properly before running the python script.
 
+
 Follow instructions here to install them:
 [http://wiki.icub.org/wiki/Linux:Installation_from_sources](http://wiki.icub.org/wiki/Linux:Installation_from_sources)
 
+Install the YARP and iCub bindings for Python:
+[https://www.yarp.it/yarp_swig.html#yarp_swig_configure](https://www.yarp.it/yarp_swig.html#yarp_swig_configure)
 
 ### Installing
 
