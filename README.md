@@ -38,12 +38,11 @@ First step is to have a yarpserver running.
 
 Open a terminal and run 
    
- 
-   $ iKinGazeCtrl --from configSim.ini
-
 ```
 yarpserver
 ```
+The terminal will look like this.
+![yarp](https://user-images.githubusercontent.com/41744376/55685218-c0019e80-5953-11e9-9686-1b5cbf56657e.png)
 
 To run iCub simulator, open a second terminal and type
 ```
