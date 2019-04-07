@@ -65,7 +65,7 @@ python python_igaze_control.py
 1. [The YARP Gaze Interface](http://www.icub.org/doc/icub-main/icub_gaze_interface.html#sec_gaze_runningserver)
 2. [IGazeControl Class Reference](http://www.yarp.it/classyarp_1_1dev_1_1IGazeControl.html)
 
-## Authors
+## Author
 
 * **Ting-Chia Chiang**
 
