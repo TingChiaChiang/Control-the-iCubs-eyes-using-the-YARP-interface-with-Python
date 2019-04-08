@@ -59,6 +59,8 @@ Finally, go the the directory where you downloaded the python script and run
 python python_igaze_control.py
 ```
 
+### Result
+![icub_moves_eyes](https://user-images.githubusercontent.com/41744376/55754279-91b3ba00-5a4c-11e9-83e1-19a8d4d613a9.gif)
 
 
 ## References
