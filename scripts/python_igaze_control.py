@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import yarp
+import time
 # Initialize YARP
 yarp.Network.init();
 
@@ -25,9 +26,10 @@ class iGazeController:
         self.fp[1] = y
         self.fp[2] = z
         self.iGaze.lookAtFixationPoint(self.fp)
+        print "I am looking at", self.fp[0], self.fp[1], self.fp[2], "(cartesian coordinates)"
         self.iGaze.setTrackingMode(True)
         self.iGaze.waitMotionDone()
-        print "I am looking at", self.fp[0], self.fp[1], self.fp[2]
+
 
     # look at a fixation point in Absolute Angular Coordinate System
     # x is a azimuth-component [deg], y is a elevation-component [deg]
@@ -38,8 +40,10 @@ class iGazeController:
         self.fa[1] = y
         self.fa[2] = z
         self.iGaze.lookAtAbsAngles(self.fa)
+        print "I am looking at", self.fa[0], self.fa[1], self.fa[2], "(angular coordinates)"
         self.iGaze.setTrackingMode(True)
         self.iGaze.waitMotionDone()
+
 
     # retrieve the current fixation point
     def GetCurrentPoint(self):
@@ -52,9 +56,10 @@ class iGazeController:
 
 if __name__ == "__main__":
     gaze_object = iGazeController()
-    # gaze_object.LookAtPoint(0, -5.0, -2)
-    gaze_object.LookAtPoint(0, -5.0, 4)
-    gaze_object.LookAtAngle(10, -5.0, 10)
+    # gaze_object.LookAtPoint(0, -5, -2)
+    gaze_object.LookAtPoint(0, 5, 5)
+    gaze_object.LookAtAngle(10, -5, 10)
+    gaze_object.LookAtPoint(0, 5, -5)
     gaze_object.clientGaze.close()
 
     # gaze_object2 = iGazeController()
